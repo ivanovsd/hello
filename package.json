@@ -5,9 +5,14 @@
   "main": "app.js",
   "scripts": {
     "start": "killall node; PORT=3010 node app.js &",
+    "netstat": "netstat -tunlp",
     "kill": "killall node",
     "list": "ps aux | grep node",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ivanovsd/hello.git"
   },
   "keywords": [
     "express",
