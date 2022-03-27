@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "killall node; PORT=3010 node app.js &",
+    "ping": "time curl --request GET --url https://api.x.immutable.com/v1/orders/1 --header 'Accept: application/json',
     "netstat": "netstat -tunlp",
     "kill": "killall node",
     "list": "ps aux | grep node",
