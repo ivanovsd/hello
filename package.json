@@ -5,6 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "PORT=3010 node app.js",
+    "kill": "killall node",
     "list": "ps aux | grep node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
