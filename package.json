@@ -4,7 +4,7 @@
   "description": "Hello world app with express 4",
   "main": "app.js",
   "scripts": {
-    "start": "killall node; PORT=80 node app.js &",
+    "start": "killall node; PORT=3010 node app.js &",
     "kill": "killall node",
     "list": "ps aux | grep node",
     "test": "echo \"Error: no test specified\" && exit 1"
